@@ -1,0 +1,40 @@
+:root {
+  /* Color styles */
+  --amethyst: #A877C8;
+  --conifer: #A2DA5A;
+  --cold--purple: #A2B2DF;
+  --saffron: #F7BB2A;
+  --white: #FFFFFF;
+  --black: #000000;
+  --amethyst--darken: #523874;
+  --amethyst--very--darken: #151221;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+
+  background-image: url("https://i.redd.it/2k7kckebkrc31.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body,
+body>#root {
+  width: 100%;
+  height: 100vh;
+}
+body>#root {
+  padding: 0 100px;
+  max-width: 1200px;
+  max-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
